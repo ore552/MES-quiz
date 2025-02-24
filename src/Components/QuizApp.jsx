@@ -47,7 +47,7 @@ const QuizApp = () => {
         } else {
             setQuizComplete(true);
         }
-    };
+    }; 
 
     const renderOptions = () => {
         return questions[currentQuestion].options.map((option, index) => (

@@ -575,7 +575,7 @@ export const questions = [
         '£450, £300, they will have £150 left',
       ],
       correctAnswer: '£450, £450, they would not have any money left.',
-      timer: 180, // Timer in seconds
+      timer: 300, // Timer in seconds
     },
 
     {
@@ -586,7 +586,7 @@ export const questions = [
         '27',
         '36',
       ],
-      correctAnswer: '36',
+      correctAnswer: '27',
       timer: 120, // Timer in seconds
     },
 
@@ -594,11 +594,11 @@ export const questions = [
       id: 24,
       questionText: 'How does Daisy feel in this sentence and why: "Mother had strictly not to play with them but to play with the other kids, but she felt the urge to - should she disobey her dear mother for such an opportunity to make friends?"',
       options: [
-        'Stressed because she can only choose one of the options and one was decided for her and she does not like that.',
+        'Unhappy, becuase she cannot play with her friends.',
         'Happy because she has children to play with.',
         'Angry because her mom would not let her do what she wants.',
       ],
-      correctAnswer: 'Stressed because she can only choose one of the options and one was decided for her and she does not like that.',
+      correctAnswer: 'Unhappy, becuase she cannot play with her friends.',
       timer: 130, // Timer in seconds
     },
 
@@ -893,7 +893,7 @@ export const questions = [
 
     {
       id: 48,
-      questionText: 'How much change will you get if you have 5 euros and buy a £2.85 drink?',
+      questionText: 'How much change will you get if you have 5 euros and buy a £2.85 drink? Remember, 1 eruo = £0.83',
       options: [
         '£2.35',
         '£1.3',

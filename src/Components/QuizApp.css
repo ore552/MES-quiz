@@ -1,0 +1,106 @@
+
+.quiz-container {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 3px solid #ccc;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+}
+
+.option {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.option.selected{
+    background-color: #4caf50;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.option:hover{
+    margin: 5px;
+    padding: 15px 25px;
+    font-size: 16px;
+    background-color: #202020;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    color: white;
+}
+
+.next-button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.next-button:disabled{
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.questions{
+    font-size: 4vh;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+.score{
+    font-size: 4vh;
+    color: green;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 400;
+}
+
+.score{
+    font-size: 4vh;
+    color: blueviolet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+.totalScore{
+    font-size: 5vh;
+    color: blue;
+    font-weight: 300;
+}
+
+  /* HOME PAGE STYLING */
+
+  .home{
+    text-align: center;
+    margin-top: 30vh;
+  }
+
+  .getStarted{
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: greenyellow;
+    border: 1px solid green;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .H2{
+    margin-top: 3vh;
+    font-size: 7vh;
+    color: #4caf50;
+  }  
